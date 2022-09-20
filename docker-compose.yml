@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  uploader:
+    build:
+      context: ./
+      target: base
+    working_dir: /app
+    stdin_open: true
+    restart: always
+    ports:
+      - "587:587"
+    command: node index.js

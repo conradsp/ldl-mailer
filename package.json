@@ -1,0 +1,17 @@
+{
+  "name": "ldl-mailer",
+  "version": "1.0.0",
+  "description": "Mail receiver for MedAir Monitor",
+  "main": "index.js",
+  "author": "Steve Conrad",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node dev"
+  },
+  "dependencies": {
+    "mailparser": "^3.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "smtp-server": "^3.11.0",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
